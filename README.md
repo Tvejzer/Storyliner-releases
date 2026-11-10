@@ -1,7 +1,7 @@
 # Storyliner
 
 A quest and narrative design tool for games: lay a quest out as a map of scenes, write the dialogue inside it,
-and play it as a text game while you write — with the real logic running. Built to take over from articy:draft.
+and play it as a text game while you write — with the real logic running.
 
 ## [Download the newest version](https://github.com/Tvejzer/Storyliner-releases/releases/latest/download/Storyliner-Setup.exe)
 
