@@ -16,8 +16,6 @@ mode and the rest. In the app, *Help ▸ Guide* opens it — the guide of the ve
 ---
 
 - **[All releases](https://github.com/Tvejzer/Storyliner-releases/releases)** — each version, with what changed in it.
-- **Windows protected your PC?** The installer isn't signed, so the first time Windows may warn you: click
-  *More info*, then *Run anyway*.
 - **Updates.** Once installed, Storyliner looks for a newer version as it starts; when there is one, its status
   bar offers *Update to …* — nothing is downloaded until you click it. The Linux AppImage doesn't update itself:
   download the newer one.

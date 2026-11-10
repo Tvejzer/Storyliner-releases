@@ -8,9 +8,8 @@ This page gets Storyliner onto your PC and walks you round its window. It also c
 
 1. Download the installer from this link. It always gives you the newest version: https://github.com/Tvejzer/Storyliner-releases/releases/latest/download/Storyliner-Setup.exe
 2. Run *Storyliner-Setup.exe*.
-3. The first time, Windows may say *Windows protected your PC*. The installer isn't signed, so Windows doesn't know it yet. Click *More info*, then *Run anyway*.
-4. It asks who it's for — *Only for me* or *Anyone who uses this computer (all users)* — and which folder to install it in. Keep what it suggests, or choose, and finish.
-5. Start Storyliner from the desktop shortcut or the Start menu. From now on, double-clicking a *.quest* file in Explorer opens it in Storyliner too.
+3. It asks who it's for — *Only for me* or *Anyone who uses this computer (all users)* — and which folder to install it in. Keep what it suggests, or choose, and finish.
+4. Start Storyliner from the desktop shortcut or the Start menu. From now on, double-clicking a *.quest* file in Explorer opens it in Storyliner too.
 
 ## Update Storyliner
 
