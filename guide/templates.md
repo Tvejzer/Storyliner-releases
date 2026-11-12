@@ -17,7 +17,7 @@ Each kind has one or more templates and a **default** one (★), which new eleme
 ## Make a template
 
 1. With the kind open, click *+ Template* (on the page's toolbar, or beside the cards). It opens below, as *New character template* for a character.
-2. Under *The template*, type its *Name* — *Merchant* — and then its *Code name* — the name the game knows this template by — *Merchant* too. A template's code name doesn't follow its name: it stays the one made from *New character template* until you type it.
+2. Under *The template*, type its *Name* — *Merchant*. Its *Code name* — the name the game knows this template by — follows the name, *Merchant* too, until you type a code name of your own.
 3. Click *+ Add a field group ▾* and pick a group the project has, or *New field group…*. Drag a group by ⋮⋮ to change the order.
 4. To make it the kind's default, click *Make default*. Elements on the old default stay on it.
 5. *Delete template…* moves its elements to the default; values that would go are listed first, and one undo brings them back. The default itself can't be deleted: make another the default first.

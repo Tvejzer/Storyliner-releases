@@ -158,7 +158,7 @@ Most text boxes in the details panel keep your words as you type them. These key
 ## Details and tips
 
 - **Your own shortcuts and themes** come after version 1.0.
-- **Editor settings live** in Storyliner's own folder in your Windows profile. In the browser version, the browser keeps them.
+- **Editor settings live** in Storyliner's own folder in your user profile. In the browser version, the browser keeps them.
 - **Diversion and other version control:** keep the project file and the *translations*, *resources* and *import* folders; leave *.storyliner* out.
 - **The Help menu:** *Help ▸ About Storyliner* says your version and what changed in it. *Help ▸ Guide* opens this guide in your browser — the copy kept with your version's release, so it matches the app you have (the browser build opens the newest).
 

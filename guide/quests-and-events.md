@@ -40,7 +40,7 @@ A new Quest node is set to **Take**. On a quest that isn't in the right state �
 
 When the quest's flow reaches the node, the option appears on the characters' wheels and the flow waits there until the player picks it. An Add dialogue to node right after the quest's entry is on the wheel as soon as the quest is available: that's how a quest giver offers a quest. The option also shows at once in each character's [sheet](glossary.md#s), ready to be dragged into place — see [Characters](characters.md).
 
-Tick **Play immediately** to play it as soon as the player walks up, with no menu. The node then gets a second way out, *on second interaction*, for what his option plays when he's talked to again.
+Tick **Play immediately** to play it as soon as the player walks up, with no menu. The node then gets a second way out, *on second interaction*: what the option left on his wheel plays when the player talks to him again.
 
 ## Take things off a wheel: Remove dialogue from
 
@@ -50,7 +50,7 @@ Tick **Play immediately** to play it as soon as the player walks up, with no men
 2. Wire it where the flow passes (1). It takes things off and the flow carries on at once.
 3. Pick the **Character** (2), then tick what to take off his sheet (3): his own dialogues, options quests add, [entry lines](glossary.md#e), [one-liners](glossary.md#o), or whole [pools](glossary.md#p). Nothing is typed.
 
-An option a quest adds goes only once it has been added. Tick **Block adding this dialogue** to keep it from ever being added if the node is passed first. Most of the time an option set to disappear once used is all you need; this node is for the rest.
+An option a quest adds can only be taken off once it's been added. Tick **Block adding this dialogue** to keep it from ever being added if the node is passed first. Most of the time an option set to disappear once used is all you need; this node is for the rest.
 
 ## Tell the game something, and wait for it: events and triggers
 
@@ -66,7 +66,7 @@ To branch on what happened, have the game set a fact before it fires the trigger
 ## Details and tips
 
 - **Quests touch each other through conditions.** *quest.KillTheDragon.finished* to follow another quest, *not quest.Banishment.taken* to be locked by one. Several quests can be available at once.
-- **A quest's state never adds or removes an option by itself.** An option goes when it's picked, by its option condition (*Option condition — when it's offered*, in the Add dialogue to node's details), or by a Remove dialogue from node. The one exception is a quest with **Withdraw when unavailable** ticked: its waiting options go if it stops being available before it's taken, those on its other ways go once it's taken, and all of them go when it ends.
+- **A quest's state never adds or removes an option by itself.** An option goes when it's picked, by its option condition (*Option condition — when it's offered*, in the Add dialogue to node's details), or by a Remove dialogue from node. The one exception is a quest with **Withdraw when unavailable** ticked: its options go if it stops being available before it's taken; once it's taken, the options its other entries put on wheels go, so it can't be started a second way; and when it ends, all of them go.
 - **Play mode stands in for the game.** In the play window, the game panel lists every Wait for trigger that's waiting, with a **Fire** button for each — *Fire got_dressed* — and a box for each fact the game writes, to set it before the trigger fires. It also lists the engine events sent. See [Play mode and the playable HTML file](play-mode.md).
 - **Places work the same way.** *Add scene to* and *Remove scene from*, under **Place ▾**, do for a location's scene list what these nodes do for a wheel — see [Locations and scene lists](locations.md).
 - **The problems list watches the wiring.** An Add dialogue to node whose way out never reaches a dialogue shows there — see [The validator](validator.md).

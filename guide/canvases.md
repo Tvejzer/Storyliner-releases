@@ -44,7 +44,7 @@ A new node starts ready to use: a line after another line gets the other speaker
 - **Break an arrow:** *Alt+click* it, or right-click it ▸ *Delete arrow*. *Alt+click* a pin breaks every arrow on it.
 - **Move arrows:** *Ctrl+drag* from a pin picks up its arrows and drops them on another pin.
 - **Put a node into an arrow:** right-click the arrow ▸ *Insert node here*.
-- **Loops are fine** — back to the tavern, try again. But an arrow can't go from a node straight back into itself while *Edit ▸ Block arrows into the same node* is ticked, as it is unless you untick it.
+- **Loops are fine** — back to the tavern, try again. But an arrow can't go from a node straight back into itself while *Edit ▸ Block arrows into the same node* is ticked — and it's ticked to begin with.
 
 ## Select
 

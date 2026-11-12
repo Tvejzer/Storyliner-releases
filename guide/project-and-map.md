@@ -48,7 +48,7 @@ The legend at the bottom of the map says the same. The switches on the map's too
 
 1. Click the storyline's box on the map, or open the storyline and click empty canvas.
 2. In the details panel, type its condition in *Available when* — for example *quest.TheCelebration.finished* for a quest that comes after *The celebration*. Suggestions come as you type: see [Facts, conditions and world states](facts-and-conditions.md).
-3. Leave it empty, and the tick box *Available at the start* says instead. A Quest node can then make it available later: see [Quests, events and triggers](quests-and-events.md).
+3. Leave it empty, and the tick box *Available at the start* decides instead. A Quest node can then make it available later: see [Quests, events and triggers](quests-and-events.md).
 4. *Withdraw when unavailable* says what happens if it stops being available before the player takes it: its options leave the characters' [wheels](glossary.md#w) — the menus of things to talk about — and its waits stop. With *and undo what it set* ticked as well, what its flow changed is put back.
 
 The map redraws its arrows as soon as you press Enter or leave the box.

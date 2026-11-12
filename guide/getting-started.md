@@ -11,6 +11,8 @@ This page gets Storyliner onto your PC and walks you round its window. It also c
 3. It asks who it's for — *Only for me* or *Anyone who uses this computer (all users)* — and which folder to install it in. Keep what it suggests, or choose, and finish.
 4. Start Storyliner from the desktop shortcut or the Start menu. From now on, double-clicking a *.quest* file in Explorer opens it in Storyliner too.
 
+**On Linux**, download *Storyliner.AppImage* instead — this link, too, always gives the newest: https://github.com/Tvejzer/Storyliner-releases/releases/latest/download/Storyliner.AppImage — then allow it to run as a program (in its *Properties*, or with `chmod +x`) and open it. Nothing is installed: the AppImage is the whole app.
+
 ## Update Storyliner
 
 Storyliner never updates by itself. When it starts, it looks to see whether a newer version is out, and downloads nothing.
@@ -21,6 +23,8 @@ Storyliner never updates by itself. When it starts, it looks to see whether a ne
 2. Click it when it suits you. The button says *Downloading 0.4.6…* with how far it has got, then *Installing 0.4.6…*.
 3. If you have unsaved changes, Storyliner asks about them, as it does when you close it. *Cancel* stops the update, and the button stays.
 4. The new version installs over the old one and starts again on the projects you had open.
+
+On Linux there's no *Update* button: the AppImage doesn't update itself, so download the newer one when there is one.
 
 To look again by hand, use *Help ▸ Check for updates*. It offers *Update to …* or *Later*, or tells you that you have the newest version. *Help ▸ About Storyliner* says which version you have and what changed in it. *Help ▸ Guide* opens this guide.
 
@@ -92,7 +96,7 @@ To open any autosave by hand:
 ## Details and tips
 
 - **The same project open twice** — in two windows, say — is noticed. The second one opens read-only, and the status bar says *read-only*.
-- **The file changed on disk** — pulled from Diversion, or edited elsewhere. If you have nothing unsaved, Storyliner reloads it, keeps what you had open, and says so in a banner. Undo starts afresh from the new file. If you do, a banner asks: *Keep mine* or *Take the new file*. The one you don't keep is saved as a copy in *.storyliner/autosave*, so neither is lost.
+- **The file changed on disk** — pulled from Diversion, or edited elsewhere. If you have nothing unsaved, Storyliner reloads it, keeps what you had open, and says so in a banner. Undo starts afresh from the new file. If you do have unsaved changes, a banner asks: *Keep mine* or *Take the new file*. The one you don't keep is saved as a copy in *.storyliner/autosave*, so neither is lost.
 - **Play your story** at any moment with *Play ▸ Play (F5)*. It opens in a window of its own: see [Play mode and the playable HTML file](play-mode.md).
 - **Shortcuts.** *Help ▸ Keyboard shortcuts* lists the main ones. Every one is on [Files, settings and keyboard shortcuts](files-and-settings.md).
 

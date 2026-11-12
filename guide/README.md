@@ -8,11 +8,11 @@ articy:draft.
 
 ![The main window: Rebellion in Tallon open on its first storyline, Arrival in Tallon, the situation Boat Sequence selected and its details on the right](images/home-main-window.png)
 
-This is the guide of Storyliner 0.4.5, and it shows only what's built. It's public — anyone can read it, no
-GitHub account needed: it's kept with Storyliner's releases, at
+This guide describes the version of Storyliner it comes with, and only what's built. It's public — anyone
+can read it, no GitHub account needed: it's kept with Storyliner's releases, at
 [github.com/Tvejzer/Storyliner-releases](https://github.com/Tvejzer/Storyliner-releases), a copy with each
 release. In the app, *Help ▸ Guide* opens the guide of the version you have.
-Each page explains its words as it goes; any word you meet without one is in the [Glossary](glossary.md).
+Each page explains its words as they come up; any it doesn't explain are in the [Glossary](glossary.md).
 
 ## The pages
 
